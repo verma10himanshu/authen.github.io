@@ -8,8 +8,7 @@ var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
-//mongoose.connect('mongodb+srv://<DB_USER_NAME>:<DB_PASSWORD>@cluster0-vatbg.mongodb.net/registrationFormHeruko?retryWrites=true&w=majority',
-mongoose.connect('mongodb://localhost:27017/myapp', {
+mongoose.connect('mongodb+srv://Verma7572:Verma7572@cluster0.wkly5fu.mongodb.net/myapp', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
